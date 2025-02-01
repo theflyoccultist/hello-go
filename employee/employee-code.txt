@@ -33,7 +33,7 @@ func main() {
 		parts := strings.Fields(line)
 
 		if len(parts) == 3 {
-			fullName := parts[0] + " " + parts[1]
+			fullName := parts[0] + "." + parts[1]
 			fullNames = append(fullNames, fullName)
 			salary, err := strconv.ParseUint(parts[2], 10, 32)
 			check(err)
