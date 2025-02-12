@@ -1,3 +1,5 @@
+// A package to implement a generic stack in Go
+
 package genstack
 
 import "fmt"

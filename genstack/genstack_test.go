@@ -1,3 +1,5 @@
+// Running unit tests for genstack package
+
 package genstack
 
 import (
